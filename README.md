@@ -4,6 +4,6 @@ Manejo de git github
 comandos
 ´´´
 
-# sobre ramas
+# Acerca del uso ramas
 '''bash´´
 
