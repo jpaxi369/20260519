@@ -3,3 +3,7 @@ Manejo de git github
 ´´´
 comandos
 ´´´
+
+# sobre ramas
+'''bash´´
+
