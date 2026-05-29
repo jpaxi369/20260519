@@ -9,10 +9,10 @@ jobs:
     steps:
       - name: Clonando mi repositorio
         uses: actions/checkout@v3
-      - name: Configurando JDK 25
+      - name: Configurando JDK 21
         uses: actions/setup-java@v5.2.0
         with:
-          java-version: '25'
+          java-version: '21'
           distribution: 'temurin'
       - name: Compilando mediante Maven
         run: mvn clean install
