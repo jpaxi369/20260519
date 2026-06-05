@@ -27,7 +27,7 @@ jobs:
         env:
           SPRING_PROFILES_ACTIVE: dev
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-      -name: Ejecutando analisis de codigo estatico
+      - name: Ejecutando análisis estático de código
         run: |
         mvn sonar:sonar \
           -Dsonar.projectKey=jpaxi369_20260519 \
